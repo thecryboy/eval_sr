@@ -1,0 +1,60 @@
+clear;
+close all;
+
+
+
+image_dir = 'I:\scientific_data\eval_for_SR\local_show\CreatePatch\AIIM\lung';
+save_dir = [image_dir '_chop'];
+
+if ~exist(save_dir, 'dir')
+    mkdir(save_dir);
+end
+
+filepaths =[dir(fullfile(image_dir,'*.bmp')); dir(fullfile(image_dir,'*.png'))];
+% image_dir = {'BFLP'};
+
+patch_position = [270,135]; %1
+patch_scalar = 0.2;
+
+% if ~isdir(image_name)
+%     mkdir(image_name);
+% end 
+
+for ii = 1:length(filepaths)
+    [add,image_name,type] = fileparts(filepaths(ii).name);
+    image = imread([image_dir '/' image_name type]);
+    patch_size = [round(patch_scalar*size(image,1)),round(patch_scalar*size(image,1))];
+    patch = image(patch_position(1):patch_position(1)+patch_size(1),patch_position(2):patch_position(2)+patch_size(2),:);
+    patch_big = imresize(patch,[round(size(image,1)*0.6),round(size(image,2)*0.6)],'bicubic');
+    
+%     figure;
+%     imshow(patch_big);
+%     title([image_name '_patch']);
+    
+    if size(patch, 3) == 1
+        mark_image(:,:,1) = image;
+        mark_image(:,:,2) = image;
+        mark_image(:,:,3) = image;
+        temp(:,:,1)=patch;
+        temp(:,:,2)=patch;
+        temp(:,:,3)=patch;
+    else
+        mark_image = image;
+        temp = patch;
+    end
+    mark_image(patch_position(1)-2:patch_position(1)+patch_size(1)+2,patch_position(2)-2:patch_position(2)+patch_size(2)+2,1) = 255;
+    mark_image(patch_position(1)-2:patch_position(1)+patch_size(1)+2,patch_position(2)-2:patch_position(2)+patch_size(2)+2,2) = 0;
+    mark_image(patch_position(1)-2:patch_position(1)+patch_size(1)+2,patch_position(2)-2:patch_position(2)+patch_size(2)+2,3) = 0;
+    mark_image(patch_position(1):patch_position(1)+patch_size(1),patch_position(2):patch_position(2)+patch_size(2),:) = temp;
+    
+%     figure;
+%     imshow(mark_image);
+%     title([image_name '_markimage']);
+    
+%     imwrite(patch_big,fullfile(image_name,[image_dir{ii} '_patch.png']));
+%     imwrite(mark_image,fullfile(image_name,[image_dir{ii} '.png']));
+    imwrite(patch_big,[save_dir '/' image_name '_chop' type]);
+    imwrite(mark_image,[save_dir '/' image_name '_mark' type]);
+end
+
+% close all

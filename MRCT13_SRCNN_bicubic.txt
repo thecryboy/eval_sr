@@ -1,0 +1,94 @@
+**********************
+Method_1: bicubic; Set: MRCT13
+x2 1 10_mri_abdomen_bicubic_x2.png: PSNR= 44.136251 SSIM= 0.991883
+x2 2 11_ct_abdomen_bicubic_x2.png: PSNR= 34.581741 SSIM= 0.961963
+x2 3 12_ct_abdomen2_bicubic_x2.png: PSNR= 38.852518 SSIM= 0.971701
+x2 4 13_ct_lung_bicubic_x2.png: PSNR= 30.359733 SSIM= 0.944133
+x2 5 1_ankle_bicubic_x2.png: PSNR= 34.834480 SSIM= 0.939797
+x2 6 2_elbow_bicubic_x2.png: PSNR= 40.825781 SSIM= 0.979789
+x2 7 3_foot_bicubic_x2.png: PSNR= 36.498374 SSIM= 0.966190
+x2 8 4_hand_bicubic_x2.png: PSNR= 39.493514 SSIM= 0.986610
+x2 9 5_head_bicubic_x2.png: PSNR= 38.794879 SSIM= 0.982365
+x2 10 6_knee_bicubic_x2.png: PSNR= 37.904976 SSIM= 0.960890
+x2 11 7_knee2_bicubic_x2.png: PSNR= 38.796840 SSIM= 0.971384
+x2 12 8_spine_bicubic_x2.png: PSNR= 43.045785 SSIM= 0.991588
+x2 13 9_wrist_bicubic_x2.png: PSNR= 35.161541 SSIM= 0.932314
+--------Mean--------
+x2: PSNR= 37.945109 SSIM= 0.967739 IFC= 0.000000
+x3 1 10_mri_abdomen_bicubic_x3.png: PSNR= 37.752093 SSIM= 0.969260
+x3 2 11_ct_abdomen_bicubic_x3.png: PSNR= 30.832590 SSIM= 0.921805
+x3 3 12_ct_abdomen2_bicubic_x3.png: PSNR= 34.577672 SSIM= 0.938765
+x3 4 13_ct_lung_bicubic_x3.png: PSNR= 26.940176 SSIM= 0.887495
+x3 5 1_ankle_bicubic_x3.png: PSNR= 30.492609 SSIM= 0.858414
+x3 6 2_elbow_bicubic_x3.png: PSNR= 35.141691 SSIM= 0.935414
+x3 7 3_foot_bicubic_x3.png: PSNR= 31.197622 SSIM= 0.889240
+x3 8 4_hand_bicubic_x3.png: PSNR= 33.248681 SSIM= 0.948570
+x3 9 5_head_bicubic_x3.png: PSNR= 31.836816 SSIM= 0.918300
+x3 10 6_knee_bicubic_x3.png: PSNR= 33.406827 SSIM= 0.903572
+x3 11 7_knee2_bicubic_x3.png: PSNR= 33.455911 SSIM= 0.914163
+x3 12 8_spine_bicubic_x3.png: PSNR= 35.467509 SSIM= 0.961359
+x3 13 9_wrist_bicubic_x3.png: PSNR= 30.693049 SSIM= 0.817804
+--------Mean--------
+x3: PSNR= 32.695634 SSIM= 0.912628 IFC= 0.000000
+x4 1 10_mri_abdomen_bicubic_x4.png: PSNR= 33.685793 SSIM= 0.930868
+x4 2 11_ct_abdomen_bicubic_x4.png: PSNR= 28.795997 SSIM= 0.886603
+x4 3 12_ct_abdomen2_bicubic_x4.png: PSNR= 31.862446 SSIM= 0.904586
+x4 4 13_ct_lung_bicubic_x4.png: PSNR= 25.097204 SSIM= 0.843518
+x4 5 1_ankle_bicubic_x4.png: PSNR= 28.262749 SSIM= 0.794943
+x4 6 2_elbow_bicubic_x4.png: PSNR= 32.066251 SSIM= 0.887982
+x4 7 3_foot_bicubic_x4.png: PSNR= 28.517002 SSIM= 0.814567
+x4 8 4_hand_bicubic_x4.png: PSNR= 30.072133 SSIM= 0.900639
+x4 9 5_head_bicubic_x4.png: PSNR= 28.672112 SSIM= 0.844518
+x4 10 6_knee_bicubic_x4.png: PSNR= 30.981626 SSIM= 0.854642
+x4 11 7_knee2_bicubic_x4.png: PSNR= 30.711629 SSIM= 0.861632
+x4 12 8_spine_bicubic_x4.png: PSNR= 31.433146 SSIM= 0.913587
+x4 13 9_wrist_bicubic_x4.png: PSNR= 28.598648 SSIM= 0.729899
+--------Mean--------
+x4: PSNR= 29.904364 SSIM= 0.859076 IFC= 0.000000
+**********************
+Method_2: SRCNN; Set: MRCT13
+x2 1 10_mri_abdomen_SRCNN_x2.png: PSNR= 44.948440 SSIM= 0.994308
+x2 2 11_ct_abdomen_SRCNN_x2.png: PSNR= 39.451661 SSIM= 0.977741
+x2 3 12_ct_abdomen2_SRCNN_x2.png: PSNR= 41.117054 SSIM= 0.980617
+x2 4 13_ct_lung_SRCNN_x2.png: PSNR= 33.735548 SSIM= 0.965870
+x2 5 1_ankle_SRCNN_x2.png: PSNR= 37.331325 SSIM= 0.964113
+x2 6 2_elbow_SRCNN_x2.png: PSNR= 42.904018 SSIM= 0.988737
+x2 7 3_foot_SRCNN_x2.png: PSNR= 39.703308 SSIM= 0.984126
+x2 8 4_hand_SRCNN_x2.png: PSNR= 43.268330 SSIM= 0.994262
+x2 9 5_head_SRCNN_x2.png: PSNR= 40.964274 SSIM= 0.991899
+x2 10 6_knee_SRCNN_x2.png: PSNR= 41.161543 SSIM= 0.978265
+x2 11 7_knee2_SRCNN_x2.png: PSNR= 41.817436 SSIM= 0.985811
+x2 12 8_spine_SRCNN_x2.png: PSNR= 45.828094 SSIM= 0.995436
+x2 13 9_wrist_SRCNN_x2.png: PSNR= 37.697433 SSIM= 0.964624
+--------Mean--------
+x2: PSNR= 40.763728 SSIM= 0.981985 IFC= 0.000000
+x3 1 10_mri_abdomen_SRCNN_x3.png: PSNR= 39.476270 SSIM= 0.980606
+x3 2 11_ct_abdomen_SRCNN_x3.png: PSNR= 34.785172 SSIM= 0.952109
+x3 3 12_ct_abdomen2_SRCNN_x3.png: PSNR= 36.803127 SSIM= 0.955658
+x3 4 13_ct_lung_SRCNN_x3.png: PSNR= 29.896587 SSIM= 0.924048
+x3 5 1_ankle_SRCNN_x3.png: PSNR= 32.067011 SSIM= 0.890756
+x3 6 2_elbow_SRCNN_x3.png: PSNR= 36.459901 SSIM= 0.952362
+x3 7 3_foot_SRCNN_x3.png: PSNR= 32.930332 SSIM= 0.922164
+x3 8 4_hand_SRCNN_x3.png: PSNR= 35.563234 SSIM= 0.968160
+x3 9 5_head_SRCNN_x3.png: PSNR= 34.722702 SSIM= 0.952868
+x3 10 6_knee_SRCNN_x3.png: PSNR= 35.656214 SSIM= 0.929963
+x3 11 7_knee2_SRCNN_x3.png: PSNR= 35.581320 SSIM= 0.939736
+x3 12 8_spine_SRCNN_x3.png: PSNR= 39.617285 SSIM= 0.981906
+x3 13 9_wrist_SRCNN_x3.png: PSNR= 31.866136 SSIM= 0.860278
+--------Mean--------
+x3: PSNR= 35.032715 SSIM= 0.939278 IFC= 0.000000
+x4 1 10_mri_abdomen_SRCNN_x4.png: PSNR= 34.999201 SSIM= 0.949921
+x4 2 11_ct_abdomen_SRCNN_x4.png: PSNR= 31.824668 SSIM= 0.924957
+x4 3 12_ct_abdomen2_SRCNN_x4.png: PSNR= 33.649685 SSIM= 0.926054
+x4 4 13_ct_lung_SRCNN_x4.png: PSNR= 27.628396 SSIM= 0.884566
+x4 5 1_ankle_SRCNN_x4.png: PSNR= 29.514072 SSIM= 0.828737
+x4 6 2_elbow_SRCNN_x4.png: PSNR= 33.635235 SSIM= 0.911971
+x4 7 3_foot_SRCNN_x4.png: PSNR= 29.656802 SSIM= 0.848611
+x4 8 4_hand_SRCNN_x4.png: PSNR= 31.880922 SSIM= 0.929334
+x4 9 5_head_SRCNN_x4.png: PSNR= 31.030544 SSIM= 0.892761
+x4 10 6_knee_SRCNN_x4.png: PSNR= 32.875104 SSIM= 0.885833
+x4 11 7_knee2_SRCNN_x4.png: PSNR= 32.354135 SSIM= 0.889909
+x4 12 8_spine_SRCNN_x4.png: PSNR= 34.319886 SSIM= 0.949207
+x4 13 9_wrist_SRCNN_x4.png: PSNR= 29.461880 SSIM= 0.766858
+--------Mean--------
+x4: PSNR= 31.756195 SSIM= 0.891440 IFC= 0.000000

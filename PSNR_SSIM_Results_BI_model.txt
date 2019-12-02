@@ -1,0 +1,4 @@
+**********************
+Method_1: EDSR; Set: NEW_ADNI100
+x4 1 100SR.png: PSNR= 14.740868 SSIM= 0.290700
+x4 2 10SR.png: PSNR= 26.087865 SSIM= 0.845875
